@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="hero-header">
-      <div class="container hero-container">
+      <div class="container header-container">
         <nav class="hero-header-nav">
           <a href="./index.html" class="logo-link">
             <svg class="logo-icon" width="127" height="20">
@@ -48,7 +48,7 @@
             </svg>
           </a>
           <button class="burger-menu-btn" aria-label="burger-menu open button">
-            <svg class="burger-menu-btn-icon" width="32" height="32">
+            <svg class="burger-menu-btn-icon" width="32" height="22">
               <use href="./img/icons/sprite.svg#icon-burger-menu"></use>
             </svg>
           </button>
@@ -139,12 +139,6 @@
           </div>
         </div>
       </section>
-      <!-- <section class="decoration">
-        <h2 class="hero-text-decopativo">
-          Master <span class="text-decopativo">your photography</span> skills
-          with us!
-        </h2>
-      </section> -->
       <section id="about-us">
         <div class="container">
           <h3 class="section-title">
@@ -169,22 +163,25 @@
               width="335"
               height="209"
             />
-            <p class="text-main">
-              Our photography school is designed to teach you everything you
-              need to know about this magical art. Regardless of your experience
-              or skill level, we offer a wide range of courses to suit your
-              needs and interests. Our teaching team consists of experienced
-              photographers who have many years of experience in this field.
-              They strive not only to share their knowledge, but also to inspire
-              you to develop and express your unique creativity.
-            </p>
-            <p class="text-main">
-              Our courses cover a wide range of topics, from the basics of
-              photography and equipment use to professional image processing and
-              creating impressive compositions. You will have the opportunity to
-              learn the technical aspects of photography, discover your own
-              style and develop your own visual language.
-            </p>
+            <div class="about-us-info">
+              <p class="text-main">
+                Our photography school is designed to teach you everything you
+                need to know about this magical art. Regardless of your
+                experience or skill level, we offer a wide range of courses to
+                suit your needs and interests. Our teaching team consists of
+                experienced photographers who have many years of experience in
+                this field. They strive not only to share their knowledge, but
+                also to inspire you to develop and express your unique
+                creativity.
+              </p>
+              <p class="text-main">
+                Our courses cover a wide range of topics, from the basics of
+                photography and equipment use to professional image processing
+                and creating impressive compositions. You will have the
+                opportunity to learn the technical aspects of photography,
+                discover your own style and develop your own visual language.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -489,17 +486,19 @@
         </div>
       </section>
     </main>
-    <footer id="footer-section">
+    <footer class="footer-wrap" id="footer-section">
       <div class="container">
         <div class="footer-info-row">
           <div class="footer-logo-column">
             <a href="./index.html" class="logo-link">
-              <svg class="logo-icon" width="123" height="16">
+              <svg class="logo-icon" width="127" height="20">
                 <use href="./img/icons/sprite.svg#icon-logo"></use>
               </svg>
             </a>
             <address class="footer-adress">
-              <a href="tel:380665438912">UK: +38 066 543 8912</a>
+              <a class="footer-tel-link" href="tel:380665438912"
+                >UK: +38 066 543 8912</a
+              >
               <p>Ukraine, Kyiv</p>
             </address>
           </div>
@@ -551,20 +550,22 @@
         </div>
         <div class="footer-info-privacy-row">
           <a class="footer-privacy-link" href="#"
-            >Privacy Policy Public Offering Agreement</a
+            >Privacy Policy <br />Public Offering Agreement</a
           >
-          <p class="text-s">Privacy Policy Public Offering Agreement</p>
+          <p class="footer-copyright">
+            2023 Focus Frame <br />&copy; All rights reserved
+          </p>
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
-      <div class="burger-menu">
+    <div class="backdrop">
+      <div class="burger-menu-wrap">
         <button
           class="burger-menu-close-btn"
           type="button"
           aria-label="burger-menu close button"
         >
-          <svg class="burger-menu-close-btn-icon" width="8" height="8">
+          <svg class="burger-menu-close-btn-icon" width="32" height="32">
             <use href="./img/icons/sprite.svg#icon-close"></use>
           </svg>
         </button>
