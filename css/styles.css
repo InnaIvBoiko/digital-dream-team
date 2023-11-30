@@ -154,7 +154,7 @@ section {
   border: none;
   stroke: #fff;
   margin-left: 14px;
-  transition: stroke 250 linear;
+  transition: stroke 250ms linear;
 }
 
 .burger-menu-btn:focus {
