@@ -170,7 +170,7 @@ section {
   z-index: -1;
   width: 100%;
   height: 947px;
-  background-image: url(/img/bg-elements/header-bg-mob.png);
+  background-image: url(../img/bg-elements/header-bg-mob.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -180,7 +180,7 @@ section {
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
   .header-bg-element {
-    background-image: url(/img/bg-elements/header-bg-mob@2x.png);
+    background-image: url(../img/bg-elements/header-bg-mob@2x.png);
   }
 }
 
@@ -589,7 +589,7 @@ section {
   z-index: -1;
   width: 375px;
   height: 535px;
-  background-image: url(/img/bg-elements/footer-bg-mob.png);
+  background-image: url(../img/bg-elements/footer-bg-mob.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -599,7 +599,7 @@ section {
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
   .footer-bg-element {
-    background-image: url(/img/bg-elements/footer-bg-mob@2x.png);
+    background-image: url(../img/bg-elements/footer-bg-mob@2x.png);
   }
 }
 
@@ -772,14 +772,14 @@ section {
 
   .header-bg-element {
     height: 1120px;
-    background-image: url(/img/bg-elements/header-bg-tab.png);
+    background-image: url(../img/bg-elements/header-bg-tab.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (max-width: 1279px),
     screen and (min-resolution: 2dppx) and (max-width: 1279px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1279px) {
     .header-bg-element {
-      background-image: url(/img/bg-elements/header-bg-tab@2x.png);
+      background-image: url(../img/bg-elements/header-bg-tab@2x.png);
     }
   }
 
@@ -1004,14 +1004,14 @@ section {
     top: -50px;
     width: 768px;
     height: 331px;
-    background-image: url(/img/bg-elements/footer-bg-tab.png);
+    background-image: url(../img/bg-elements/footer-bg-tab.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (max-width: 1279px),
     screen and (min-resolution: 2dppx) and (max-width: 1279px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1279px) {
     .footer-bg-element {
-      background-image: url(/img/bg-elements/footer-bg-tab@2x.png);
+      background-image: url(../img/bg-elements/footer-bg-tab@2x.png);
     }
   }
 
@@ -1116,14 +1116,14 @@ section {
 
   .header-bg-element {
     height: 909px;
-    background-image: url(/img/bg-elements/header-bg-desk.png);
+    background-image: url(../img/bg-elements/header-bg-desk.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (max-width: 1439px),
     screen and (min-resolution: 2dppx) and (max-width: 1439px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1439px) {
     .header-bg-element {
-      background-image: url(/img/bg-elements/header-bg-desk@2x.png);
+      background-image: url(../img/bg-elements/header-bg-desk@2x.png);
     }
   }
 
@@ -1263,14 +1263,14 @@ section {
 
   .footer-bg-element {
     width: 1280px;
-    background-image: url(/img/bg-elements/footer-bg-desk.png);
+    background-image: url(../img/bg-elements/footer-bg-desk.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (max-width: 1439px),
     screen and (min-resolution: 2dppx) and (max-width: 1439px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1439px) {
     .footer-bg-element {
-      background-image: url(/img/bg-elements/footer-bg-desk@2x.png);
+      background-image: url(../img/bg-elements/footer-bg-desk@2x.png);
     }
   }
 }
@@ -1292,14 +1292,14 @@ section {
 
   .header-bg-element {
     height: 910px;
-    background-image: url(/img/bg-elements/header-bg-desk-xl.png);
+    background-image: url(../img/bg-elements/header-bg-desk-xl.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .header-bg-element {
-      background-image: url(/img/bg-elements/header-bg-desk-xl@2x.png);
+      background-image: url(../img/bg-elements/header-bg-desk-xl@2x.png);
     }
   }
 
@@ -1389,14 +1389,14 @@ section {
 
   .footer-bg-element {
     width: 1440px;
-    background-image: url(/img/bg-elements/footer-bg-desk-xl.png);
+    background-image: url(../img/bg-elements/footer-bg-desk-xl.png);
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
     screen and (min-resolution: 2dppx) and (min-width: 1440px),
     screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px) {
     .footer-bg-element {
-      background-image: url(/img/bg-elements/footer-bg-desk-xl@2x.png);
+      background-image: url(../img/bg-elements/footer-bg-desk-xl@2x.png);
     }
   }
 }
